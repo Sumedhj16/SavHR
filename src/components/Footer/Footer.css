@@ -1,0 +1,81 @@
+.end{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.end div:not(.email){
+  display: inline-block;
+  width: 260px;
+  margin-left: 100px;
+  height: auto;
+}
+
+.end div img{
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+.end p{
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bolder;
+  color: #6D6D6D;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.end span{
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bolder;
+  color: #B8B8B8;
+}
+
+.sav span:last-of-type{
+  margin-bottom: 30px;
+}
+
+#heading{
+  display: inline-block;
+  margin-top: 65px;
+  color: #091188;
+}
+
+.contact span:last-of-type{
+  margin-top: 20px;
+}
+
+.email{
+  display: inline-block;
+  margin-top: 60px;
+}
+
+#add{
+  margin-top: 20px;
+}
+
+.quicklinks span{
+  margin-bottom: 40px;
+}
+
+.quicklinks p:first-of-type{
+margin-bottom: 50px;
+}
+
+.quicklinks p{
+  margin-bottom: 50px;
+}
+
+@media (max-width: 400px){
+  .end div:not(.email){
+  display: inline-block;
+  width: 260px;
+  margin-left: 0px;
+  height: auto;
+}
+}
